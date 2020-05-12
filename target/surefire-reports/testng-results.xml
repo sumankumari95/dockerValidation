@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="60697" started-at="2020-05-12T12:13:08 IST" finished-at="2020-05-12T12:14:09 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="60697" started-at="2020-05-12T12:13:08 IST" finished-at="2020-05-12T12:14:09 IST">
+      <class name="dockerValidation.ChromeTest3">
+        <test-method status="PASS" signature="test3()[pri:0, instance:dockerValidation.ChromeTest3@1e397ed7]" name="test3" duration-ms="24675" started-at="2020-05-12T12:13:30 IST" finished-at="2020-05-12T12:13:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+      </class> <!-- dockerValidation.ChromeTest3 -->
+      <class name="dockerValidation.ChromeTest1">
+        <test-method status="PASS" signature="startDocker()[pri:0, instance:dockerValidation.ChromeTest1@31a5c39e]" name="startDocker" is-config="true" duration-ms="22324" started-at="2020-05-12T12:13:08 IST" finished-at="2020-05-12T12:13:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDocker -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:dockerValidation.ChromeTest1@31a5c39e]" name="test1" duration-ms="16255" started-at="2020-05-12T12:13:30 IST" finished-at="2020-05-12T12:13:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="stopDocker()[pri:0, instance:dockerValidation.ChromeTest1@31a5c39e]" name="stopDocker" is-config="true" duration-ms="13618" started-at="2020-05-12T12:13:55 IST" finished-at="2020-05-12T12:14:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopDocker -->
+      </class> <!-- dockerValidation.ChromeTest1 -->
+      <class name="dockerValidation.ChromeTest2">
+        <test-method status="PASS" signature="test2()[pri:0, instance:dockerValidation.ChromeTest2@3f49dace]" name="test2" duration-ms="23531" started-at="2020-05-12T12:13:30 IST" finished-at="2020-05-12T12:13:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+      </class> <!-- dockerValidation.ChromeTest2 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
